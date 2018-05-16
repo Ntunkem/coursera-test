@@ -10,7 +10,6 @@ body {
   background-color:  #ccccff;
   border-radius: 0;
   border: solid black 2px;
-   height: 80px
 }
 .navbar-brand {
   padding-top: 25px;
@@ -19,7 +18,7 @@ body {
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
   color: #000000;
- /* font-size: 1.5em;*/
+  font-size: 1.5em;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
@@ -49,9 +48,15 @@ body {
 /*our menu*/
 #Chicken {
  background-color: #999999;
- margin : 10px;
  margin-top: 50px;
  border: solid #000000 2px;
  height: 1000; 
-}
+} 
+.container {
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
 /*end our menu*/
